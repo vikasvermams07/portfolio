@@ -1,0 +1,35 @@
+.skills-container {
+  padding: 20px;
+  /* background-color: #ffffff; Background color for the skills container */
+  /* border: 1px solid #ddd; Optional: Add a border */
+  /* border-radius: 10px; Optional: Add rounded corners */
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); Optional: Add a shadow for a better look */
+  max-width: auto; /* Optional: Set a maximum width for the skills container */
+  /* margin: 20px auto; Center the skills container */
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  grid-gap: 20px;
+}
+
+.skill-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9; /* Background color for each skill card */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for each card */
+}
+
+.icon {
+  font-size: 40px; /* Adjust the icon size as needed */
+  margin-bottom: 10px;
+}
+
+.skill-card p {
+  font-size: 16px;
+  color: #333; /* Text color for the skill name */
+}

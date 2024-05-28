@@ -1,0 +1,85 @@
+:root {
+  background-image: linear-gradient(
+      67.5deg,
+      rgb(6, 6, 6) 0%,
+      rgb(6, 6, 6) 6%,
+      rgb(29, 29, 29) 6%,
+      rgb(29, 29, 29) 57%,
+      rgb(52, 52, 52) 57%,
+      rgb(52, 52, 52) 58%,
+      rgb(75, 75, 75) 58%,
+      rgb(75, 75, 75) 79%,
+      rgb(97, 97, 97) 79%,
+      rgb(97, 97, 97) 93%,
+      rgb(120, 120, 120) 93%,
+      rgb(120, 120, 120) 95%,
+      rgb(143, 143, 143) 95%,
+      rgb(143, 143, 143) 100%
+    ),
+    linear-gradient(
+      90deg,
+      rgb(6, 6, 6) 0%,
+      rgb(6, 6, 6) 6%,
+      rgb(29, 29, 29) 6%,
+      rgb(29, 29, 29) 57%,
+      rgb(52, 52, 52) 57%,
+      rgb(52, 52, 52) 58%,
+      rgb(75, 75, 75) 58%,
+      rgb(75, 75, 75) 79%,
+      rgb(97, 97, 97) 79%,
+      rgb(97, 97, 97) 93%,
+      rgb(120, 120, 120) 93%,
+      rgb(120, 120, 120) 95%,
+      rgb(143, 143, 143) 95%,
+      rgb(143, 143, 143) 100%
+    ),
+    linear-gradient(
+      135deg,
+      rgb(6, 6, 6) 0%,
+      rgb(6, 6, 6) 6%,
+      rgb(29, 29, 29) 6%,
+      rgb(29, 29, 29) 57%,
+      rgb(52, 52, 52) 57%,
+      rgb(52, 52, 52) 58%,
+      rgb(75, 75, 75) 58%,
+      rgb(75, 75, 75) 79%,
+      rgb(97, 97, 97) 79%,
+      rgb(97, 97, 97) 93%,
+      rgb(120, 120, 120) 93%,
+      rgb(120, 120, 120) 95%,
+      rgb(143, 143, 143) 95%,
+      rgb(143, 143, 143) 100%
+    ),
+    linear-gradient(
+      0deg,
+      rgb(6, 6, 6) 0%,
+      rgb(6, 6, 6) 6%,
+      rgb(29, 29, 29) 6%,
+      rgb(29, 29, 29) 57%,
+      rgb(52, 52, 52) 57%,
+      rgb(52, 52, 52) 58%,
+      rgb(75, 75, 75) 58%,
+      rgb(75, 75, 75) 79%,
+      rgb(97, 97, 97) 79%,
+      rgb(97, 97, 97) 93%,
+      rgb(120, 120, 120) 93%,
+      rgb(120, 120, 120) 95%,
+      rgb(143, 143, 143) 95%,
+      rgb(143, 143, 143) 100%
+    ),
+    linear-gradient(90deg, rgb(8, 8, 8), rgb(221, 221, 221));
+  background-blend-mode: overlay, overlay, overlay, overlay, normal;
+  background-repeat: no-repeat; /* Prevent background repetition */
+  background-size: cover; /* Ensure the background image covers the entire window */
+  background-attachment: fixed; /* Optional: Makes the background stay in place when scrolling */
+  height: 100vh; /* Optional: Ensures the :root element covers the entire viewport height */
+  width: 100vw; /* Optional: Ensures the :root element covers the entire viewport width */
+  width: 80%; /* Set a fixed width or percentage */
+  margin: 0 auto; /* This will center the div */
+}
+#root {
+  background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+  font-family: Nunito, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+}

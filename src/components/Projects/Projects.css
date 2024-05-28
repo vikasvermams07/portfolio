@@ -1,0 +1,36 @@
+.projects-container {
+  padding: 20px;
+  /* background-color: #ffffff; Background color for the projects container */
+  /* border: 1px solid #ddd; Optional: Add a border */
+  /* border-radius: 10px; Optional: Add rounded corners */
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); Optional: Add a shadow for a better look */
+  width: auto; /* Optional: Set a maximum width for the projects container */
+  /* margin: 20px auto; Center the projects container */
+}
+
+.project {
+  margin-top: 20px; /* Add space between each project */
+}
+
+.projects-container h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.project h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #333; /* Text color for the project title */
+}
+
+.project p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666; /* Text color for the project description */
+  text-align: justify;
+}
+
+h5 {
+  font-size: 1em;
+}

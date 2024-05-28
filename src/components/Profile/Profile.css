@@ -1,0 +1,61 @@
+.profile-container {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  /* border: 1px solid #ddd; Optional: Add a border to the profile container */
+  /* border-radius: 10px; */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); Optional: Add a shadow for a better look */
+  /* background-color: #f9f9f9; Optional: Add a background color */
+}
+
+.img-container {
+  border-radius: 2% 98% 18% 82% / 100% 36% 64% 0%;
+  width: 530px; /* Increased size */
+  height: 400px; /* Increased size */
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  margin-right: 20px; /* Space between the photo and the info */
+  border: 2px solid #ddd; /* Optional: Add a border to the profile photo */
+  display: flex; /* Enable flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.profile-photo {
+  width: 100px; /* Increased size */
+  height: 100px; /* Increased size */
+  object-fit: cover; /* Ensure the image covers the entire circle */
+  /* border-radius: 50%; Make the image a circle */
+}
+
+.profile-info {
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-info h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.profile-info p {
+  margin: 5px 0;
+  color: #666;
+}
+.resume {
+  position: absolute;
+  top: 35px; /* Adjust the value to move the button vertically */
+  right: 200px; /* Adjust the value to move the button horizontally */
+  z-index: 1000; /* Ensure the button is above other content */
+  border-radius: 0;
+  height: 35px;
+  color: #ffff;
+  background-color: #36d738;
+  border: 1px solid #fff;
+}
+.resume:hover {
+  cursor: pointer;
+}
